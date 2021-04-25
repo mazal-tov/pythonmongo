@@ -4,10 +4,10 @@ EXTRACTION:
     PASSWORD : temp
     DATABASE : fandom
 COMMIT:
-    HOST : localhost
-    USER :
-    PASSWORD :
-    DATABASE : fandom
+    HOST : database3.cpmcwd2cjcis.us-east-1.rds.amazonaws.com
+    USER :postgres
+    PASSWORD :postgres
+    DATABASE : postgres
 MIGRATION:
     INIT_TABLE: fandom.universes
     INIT_KEYS:
